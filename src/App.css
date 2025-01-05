@@ -1,0 +1,39 @@
+/* .text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-justify {
+  text-align: justify;
+} */
+.text-align-left {
+  display: block !important;
+  text-align: left !important;
+}
+
+.text-align-center {
+  display: block !important;
+  text-align: center !important;
+}
+
+.text-align-right {
+  display: block !important;
+  text-align: right !important;
+}
+
+.text-align-justify {
+  display: block !important;
+  text-align: justify !important;
+}
+
+.parent-container {
+  display: block; /* 부모 요소가 flex가 아닌 block이어야 함 */
+  margin: 0 auto; /* 부모 요소가 중앙에 위치하도록 설정 */
+}
